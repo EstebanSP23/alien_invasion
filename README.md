@@ -138,4 +138,4 @@ if event.key == pygame.K_SPACE:
 
 ## Key Visualization
 ![Alien Invasion](start_screen.jpg)
-![Gameplay](action.jgp)
+![Gameplay](action.jpg)
