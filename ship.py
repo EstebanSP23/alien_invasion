@@ -12,7 +12,7 @@ class Ship(Sprite):
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the ship image and get its rect. Image size is 60x58
-        self.image = pygame.image.load('D:/Data Analysis/alien_invasion/images/ship2.bmp')
+        self.image = pygame.image.load('images/ship2.bmp')
         self.rect = self.image.get_rect()
 
         # Start each new ship at the bottom center of the screen.
