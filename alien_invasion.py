@@ -268,6 +268,5 @@ def run():
     ai = AlienInvasion()
     ai.run_game()
 
-
 if __name__ == "__main__":
     run()
