@@ -255,7 +255,19 @@ class AlienInvasion:
             alien.rect.y += self.settings.fleet_drop_speed
         self.settings.fleet_direction *= -1
 
-if __name__ == '__main__':
-    # Make a game instance, and run the game,
+# -----------------------------
+# Module-level run() used by both desktop and pygbag
+# -----------------------------
+def run():
+    """Create the game instance and start the main loop.
+
+    This function is called:
+    - directly when running `python alien_invasion.py`
+    - from `main.py` when running in pygbag/browser
+    """
     ai = AlienInvasion()
     ai.run_game()
+
+
+if __name__ == "__main__":
+    run()
